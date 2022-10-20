@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project(eigen_colcon)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_LIST_DIR}/cmake")
-find_package(catkin REQUIRED)
 
 include(ExternalProject)
 externalproject_add(eigen_src
